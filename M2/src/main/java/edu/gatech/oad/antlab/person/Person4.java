@@ -29,9 +29,13 @@ public class Person4 {
      * @param input the string to be modified
      * @return the modified string
      */
-    private String calc(String input) {
+    private static String calc(String input) {
       //Person 4 put your implementation here
-      return null;
+		String s = new String();
+        for(int i=0;i<input.length();i++){
+            s+=(char)(input.charAt(i)+1);
+        }
+        return s;
     }
     
     /**
