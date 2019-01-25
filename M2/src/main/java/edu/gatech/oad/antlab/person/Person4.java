@@ -9,6 +9,9 @@ package edu.gatech.oad.antlab.person;
  *  @version 1.1
  */
 public class Person4 {
+   public static void main(String [] args){
+      System.out.println(calc("1bl2ah3"));
+   }
   /** Holds the persons real name */
   private String name;
     /**
@@ -29,9 +32,13 @@ public class Person4 {
      * @param input the string to be modified
      * @return the modified string
      */
-    private String calc(String input) {
+    private static String calc(String input) {
       //Person 4 put your implementation here
-      return null;
+		String s = new String();
+        for(int i=0;i<input.length();i++){
+            s+=(char)(input.charAt(i)+1);
+        }
+        return s;
     }
     
     /**
