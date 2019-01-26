@@ -47,7 +47,7 @@ public class Person2 {
        }
        return random;
    }
-	/**
+	/**  
 	 * Return a string rep of this object
 	 * that varies with an input string
 	 *
